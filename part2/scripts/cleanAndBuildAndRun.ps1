@@ -1,5 +1,5 @@
 # Variable zone
-$DockerFileLocation = "$PSSCRIPTROOT/../containerFiles/"
+$DockerFileLocation = "$PSSCRIPTROOT/../workbench/"
 
 $ImageName = "friendlyhello"
 
