@@ -32,6 +32,13 @@ if ($ContainerIds) {
     docker container rm $ContainerIds
 }
 
+# Image tagging
+Write-Host "
+/////////////////////////////////////////////////////////////////
+Login (on Docker Hub)
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+"
+docker login
 
 # Image tagging
 Write-Host "
