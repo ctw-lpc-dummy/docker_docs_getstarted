@@ -11,5 +11,5 @@ My personal approach @ <https://docs.docker.com/get-started/>
 | 1 | ~~Done~~ |
 | 2 | ~~Done~~ |
 | 3 | ~~Done~~ |
-| 4 | TBD |
+| 4 | I'm having issues while creating docker-machine instance using "Hyper-V" driver... |
 | 5 | TBD |
