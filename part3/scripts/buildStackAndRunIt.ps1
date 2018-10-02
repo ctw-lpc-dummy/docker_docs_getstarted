@@ -33,23 +33,3 @@ Deploying Docker Swarm Stack App ($AppName) ...
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 "
 docker stack deploy -c $DockerComposeLocation $AppName
-
-Read-Host "
-/////////////////////////////////////////////////////////////////
-Press any key to terminate Docker Swarm Stack App ($AppName)
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-"
-
-Write-Host "
-/////////////////////////////////////////////////////////////////
-Taking down Docker Swarm Stack App ($AppName) ...
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-"
-docker stack rm $AppName
-
-Write-Host "
-/////////////////////////////////////////////////////////////////
-Taking down Docker Swarm (force mode) ...
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-"
-docker swarm leave --force

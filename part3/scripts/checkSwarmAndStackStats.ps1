@@ -8,7 +8,7 @@ $DockerHubRepositoryTag = "latest"
 $DockerHubRepositoryPseudoImageName = $("$DockerHubUserName" + "/" + "$DockerHubRepository")
 $DockerHubRepositoryPseudoPath = $("$DockerHubRepositoryPseudoImageName" + ":" + "$DockerHubRepositoryTag")
 
-# Annoucement
+# Announcement
 $SelectedOption = Read-Host "
 /////////////////////////////////////////////////////////////////
 Docker Swarm / Stack stats viewer:
