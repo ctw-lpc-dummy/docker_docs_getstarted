@@ -2,7 +2,7 @@
 $AppName = "getstartedlab"
 $ServiceName = $("$AppName" + "_web")
 
-$DockerHubUserName = "luispedrocalcadactw"
+$DockerHubUserName = "ctwlpcdummy"
 $DockerHubRepository = "get-started"
 $DockerHubRepositoryTag = "latest"
 $DockerHubRepositoryPseudoImageName = $("$DockerHubUserName" + "/" + "$DockerHubRepository")
