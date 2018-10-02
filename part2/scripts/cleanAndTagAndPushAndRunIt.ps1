@@ -1,6 +1,6 @@
 # Variable zone
 $ImageName = "friendlyhello"
-$DockerHubUserName = "luispedrocalcadactw"
+$DockerHubUserName = "ctwlpcdummy"
 $DockerHubRepository = "get-started"
 $DockerHubRepositoryTag = "latest"
 $DockerHubRepositoryPseudoImageName = $("$DockerHubUserName" + "/" + "$DockerHubRepository")
@@ -33,12 +33,12 @@ if ($ContainerIds) {
 }
 
 # Image tagging
-Write-Host "
-/////////////////////////////////////////////////////////////////
-Login (on Docker Hub)
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-"
-docker login
+# Write-Host "
+# /////////////////////////////////////////////////////////////////
+# Login (on Docker Hub)
+# \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# "
+# docker login
 
 # Image tagging
 Write-Host "
