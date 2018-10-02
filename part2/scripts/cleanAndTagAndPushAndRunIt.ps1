@@ -1,6 +1,6 @@
 # Variable zone
 $ImageName = "friendlyhello"
-$DockerHubUserName = "luispedrocalcadactw"
+$DockerHubUserName = "ctwlpcdummy"
 $DockerHubRepository = "get-started"
 $DockerHubRepositoryTag = "latest"
 $DockerHubRepositoryPseudoImageName = $("$DockerHubUserName" + "/" + "$DockerHubRepository")
